@@ -1,44 +1,462 @@
-<http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-5610578>
-        a       <http://www.w3.org/2002/07/owl#Class> .
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q08828_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q08828_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_Q08828_R-HSA-5610727_controller>
+] .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004016> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: R-HSA-5610727" , "split from set-enabled reaction R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-30389_cytosol> , <http://model.geneontology.org/R-ALL-111294_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_Q08828_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O60503_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727> ;
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:reactome_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2026-06-29" ;
+          "2026-07-02" ;
   <http://purl.org/pav/providedBy>
           "https://reactome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/R-HSA-5610727> ;
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/R-ALL-30389_cytosol>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
 ] .
 
-<http://www.w3.org/2004/02/skos/core#note>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727>
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+<http://purl.obolibrary.org/obo/GO_0005886>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://geneontology.org/lego/evidence>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
         <http://purl.org/dc/elements/1.1/source>
                 "Reactome:R-HSA-5610727" ;
         <http://purl.org/pav/providedBy>
                 "https://reactome.org" .
 
-<http://purl.org/pav/providedBy>
+<http://www.w3.org/2004/02/skos/core#note>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" , "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" , "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O95622_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.obolibrary.org/obo/ECO_0000313>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://identifiers.org/uniprot/P51828> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in plasma membrane" , "Original Reactome ID: UniProt_P51828" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY7" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-379057" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8383> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/GO_0004016> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "split from set-enabled reaction R-HSA-5610727" , "Original Reactome ID: R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-30389_cytosol> , <http://model.geneontology.org/R-ALL-111294_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_O60503_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
 
 <http://purl.obolibrary.org/obo/GO_0004016>
         a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " , "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004016> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: R-HSA-5610727" , "split from set-enabled reaction R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-30389_cytosol> , <http://model.geneontology.org/R-ALL-111294_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+<http://www.w3.org/2004/02/skos/core#exactMatch>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
 <http://purl.obolibrary.org/obo/GO_0008150>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -47,62 +465,349 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787> ;
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:reactome_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2026-06-29" ;
+          "2026-07-02" ;
   <http://purl.org/pav/providedBy>
           "https://reactome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/R-HSA-5610727> ;
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/R-ALL-111294_cytosol>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
 ] .
 
-<http://purl.obolibrary.org/obo/RO_0002234>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
-<http://purl.obolibrary.org/obo/BFO_0000050>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
-<http://model.geneontology.org/reaction_R-HSA-5610727_location_lociGO_0005886>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005886> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:reactome_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
-        <http://purl.org/pav/providedBy>
-                "https://reactome.org" .
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_P40145_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_P40145_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_P40145_R-HSA-5610727_controller>
+] .
 
 <http://www.w3.org/2004/02/skos/core#narrower>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-<http://purl.org/dc/elements/1.1/source>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
 
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_R-HSA-5610727_R-HSA-5610578_Reactome_R-HSA-5610727>
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
         <http://purl.org/dc/elements/1.1/source>
                 "Reactome:R-HSA-5610727" ;
         <http://purl.org/pav/providedBy>
                 "https://reactome.org" .
 
-<http://purl.obolibrary.org/obo/RO_0002333>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://identifiers.org/uniprot/P51828>
+        a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727>
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O95622_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " , "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
+
+<http://geneontology.org/lego/modelstate>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
+
+<http://purl.obolibrary.org/obo/RO_0002234>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q08462_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q08828_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/GO_0004016> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: R-HSA-5610727" , "split from set-enabled reaction R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-30389_cytosol> , <http://model.geneontology.org/R-ALL-111294_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_Q96PN6_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005886> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005886> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://purl.obolibrary.org/obo/GO_0005886> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+<http://model.geneontology.org/UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/uniprot/O95622> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: UniProt_O95622" , "located_in plasma membrane" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY5" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-170684" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8319> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_P40145_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
         <http://purl.org/dc/elements/1.1/source>
                 "Reactome:R-HSA-5610727" ;
         <http://purl.org/pav/providedBy>
@@ -112,198 +817,1044 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787> ;
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:reactome_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2026-06-29" ;
+          "2026-07-02" ;
   <http://purl.org/pav/providedBy>
           "https://reactome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/R-HSA-5610727> ;
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/R-ALL-113592_cytosol>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
 ] .
 
-<http://purl.obolibrary.org/obo/RO_0002233>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
         <http://purl.org/dc/elements/1.1/source>
                 "Reactome:R-HSA-5610787" ;
         <http://purl.org/pav/providedBy>
                 "https://reactome.org" .
 
-<http://model.geneontology.org/R-HSA-5610727>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004016> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "Original Reactome ID: R-HSA-5610727" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
-        <http://purl.obolibrary.org/obo/BFO_0000050>
-                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
-        <http://purl.obolibrary.org/obo/BFO_0000066>
-                <http://model.geneontology.org/reaction_R-HSA-5610727_location_lociGO_0005886> ;
-        <http://purl.obolibrary.org/obo/RO_0002233>
-                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
-        <http://purl.obolibrary.org/obo/RO_0002234>
-                <http://model.geneontology.org/R-ALL-30389_cytosol> , <http://model.geneontology.org/R-ALL-111294_cytosol> ;
-        <http://purl.obolibrary.org/obo/RO_0002333>
-                <http://model.geneontology.org/R-HSA-5610727_R-HSA-5610578> ;
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O60266_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
-        <http://purl.org/pav/providedBy>
-                "https://reactome.org" ;
-        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
                 "Reactome:R-HSA-5610727" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://www.reactome.org/biopax/96/48887#BiochemicalReaction13882> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
 
-<http://model.geneontology.org/R-ALL-111294_cytosol>
-        a       <http://purl.obolibrary.org/obo/CHEBI_33019> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "Original Reactome ID: CHEBI_33019" , "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "PPi" ;
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
         <http://purl.org/pav/providedBy>
-                "https://reactome.org" ;
-        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
-                "Reactome:R-ALL-111294" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://www.reactome.org/biopax/96/48887#SmallMolecule259> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
+                "https://reactome.org" .
 
-<http://purl.obolibrary.org/obo/CHEBI_30616>
-        a       <http://www.w3.org/2002/07/owl#Class> .
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q8NFM4_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q8NFM4_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_Q8NFM4_R-HSA-5610727_controller>
+] .
 
 <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " , "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000066_reaction_R-HSA-5610727_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:reactome_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2026-06-29" ;
+          "2026-07-02" ;
   <http://purl.org/pav/providedBy>
           "https://reactome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/R-HSA-5610727> ;
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_R-HSA-5610727_location_lociGO_0005886>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
 ] .
 
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_R-HSA-5610727_R-HSA-5610578_Reactome_R-HSA-5610787>
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
         <http://purl.org/dc/elements/1.1/source>
                 "Reactome:R-HSA-5610787" ;
         <http://purl.org/pav/providedBy>
                 "https://reactome.org" .
 
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:reactome_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "Reactome:R-HSA-5610727" ;
-        <http://purl.org/pav/providedBy>
-                "https://reactome.org" .
-
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000066_reaction_R-HSA-5610727_location_lociGO_0005886_Reactome_R-HSA-5610787>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:reactome_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "Reactome:R-HSA-5610787" ;
-        <http://purl.org/pav/providedBy>
-                "https://reactome.org" .
-
-<http://geneontology.org/lego/evidence>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://purl.org/dc/elements/1.1/date>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:reactome_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "Reactome:R-HSA-5610787" ;
-        <http://purl.org/pav/providedBy>
-                "https://reactome.org" .
-
-<http://geneontology.org/lego/modelstate>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://purl.obolibrary.org/obo/ECO_0000313>
-        a       <http://www.w3.org/2002/07/owl#Class> .
-
-<http://model.geneontology.org/R-HSA-5610787>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+<http://model.geneontology.org/R-ALL-30389_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_58165> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#comment>
-                "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" , "http://www.reactome.org" , "For logical inference, import the integrated tbox ontology http://purl.obolibrary.org/obo/go/extensions/go-lego-reacto.owl" ;
-        <http://geneontology.org/lego/modelstate>
-                "development" ;
+                "Original Reactome ID: CHEBI_58165" , "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "cAMP" ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
-        <http://purl.org/dc/elements/1.1/title>
-                "Hedgehog 'off' state - imported from: Reactome" ;
+                "2026-07-02" ;
         <http://purl.org/pav/providedBy>
                 "https://reactome.org" ;
-        <https://w3id.org/biolink/vocab/in_taxon>
-                <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-ALL-30389" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#SmallMolecule202> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787> ;
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O60266_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O60266_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:reactome_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2026-06-29" ;
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_O60266_R-HSA-5610727_controller>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q8NFM4_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/uniprot/Q08462> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in plasma membrane" , "Original Reactome ID: UniProt_Q08462" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY2" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-379052" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8380> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q08462_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O60503_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " , "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.obolibrary.org/obo/BFO_0000050>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/GO_0004016> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "split from set-enabled reaction R-HSA-5610727" , "Original Reactome ID: R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-111294_cytosol> , <http://model.geneontology.org/R-ALL-30389_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_O43306_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
   <http://purl.org/pav/providedBy>
           "https://reactome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/R-HSA-5610727> ;
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
           <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " , "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
+
+<http://identifiers.org/uniprot/Q96PN6>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005886> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.org/pav/providedBy>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_P51828_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_P51828_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_P51828_R-HSA-5610727_controller>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/uniprot/P40145> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in plasma membrane" , "Original Reactome ID: UniProt_P40145" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY8" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-53245" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8348> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+<https://w3id.org/biolink/vocab/in_taxon>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.obolibrary.org/obo/BFO_0000066>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005886> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.obolibrary.org/obo/CHEBI_33019>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O43306_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.org/dc/elements/1.1/source>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" , "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
+] .
+
+<http://purl.obolibrary.org/obo/CHEBI_30616>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q96PN6_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+<http://model.geneontology.org/UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://identifiers.org/uniprot/O60266> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: UniProt_O60266" , "located_in plasma membrane" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY3" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-379051" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8381> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+<http://identifiers.org/uniprot/O60266>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://identifiers.org/uniprot/Q08828> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in plasma membrane" , "Original Reactome ID: UniProt_Q08828" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY1" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-53231" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8385> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/GO_0004016> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "split from set-enabled reaction R-HSA-5610727" , "Original Reactome ID: R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-111294_cytosol> , <http://model.geneontology.org/R-ALL-30389_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_P51828_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.obolibrary.org/obo/CHEBI_58165>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_P51828_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q96PN6_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q96PN6_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_Q96PN6_R-HSA-5610727_controller>
+] .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005886> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://identifiers.org/uniprot/O95622>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O60503_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O60503_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_O60503_R-HSA-5610727_controller>
+] .
+
+<http://identifiers.org/uniprot/Q8NFM4>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://identifiers.org/uniprot/O60503>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " , "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller_location_lociGO_0005886>
 ] .
 
 <http://model.geneontology.org/R-ALL-113592_cytosol>
@@ -315,15 +1866,454 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
         <http://purl.org/pav/providedBy>
                 "https://reactome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
                 "Reactome:R-ALL-113592" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://www.reactome.org/biopax/96/48887#SmallMolecule35> ;
+                <http://www.reactome.org/biopax/97/48887#SmallMolecule10> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O43306_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O43306_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_O43306_R-HSA-5610727_controller>
+] .
+
+<http://purl.org/dc/elements/1.1/contributor>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/UniProt_O60503_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/uniprot/O60503> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: UniProt_O60503" , "located_in plasma membrane" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY9" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-379055" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8384> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005886> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+<http://model.geneontology.org/UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://identifiers.org/uniprot/Q8NFM4> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: UniProt_Q8NFM4" , "located_in plasma membrane" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY4" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-379054" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8382> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.org/dc/elements/1.1/date>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004016> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: R-HSA-5610727" , "split from set-enabled reaction R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-30389_cytosol> , <http://model.geneontology.org/R-ALL-111294_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_O95622_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+<http://identifiers.org/uniprot/P40145>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q08462_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q08462_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/UniProt_Q08462_R-HSA-5610727_controller>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
+] .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005886> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+<http://model.geneontology.org/R-ALL-111294_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_33019> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: CHEBI_33019" , "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PPi" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-ALL-111294" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#SmallMolecule127> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://purl.obolibrary.org/obo/GO_0005886> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " , "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
 
 <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
         a       <http://purl.obolibrary.org/obo/GO_0008150> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -334,7 +2324,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "Reviewed: Liu, Yulu Cherry, 2014-08-01" , "GOC:reactome_curators" , "Authored: Rothfels, Karen, 2014-05-07" , "Edited: Gillespie, Marc E, 2014-07-25" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
         <http://purl.org/pav/providedBy>
                 "https://reactome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
@@ -344,104 +2334,670 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.Pathway" .
 
-<http://purl.obolibrary.org/obo/BFO_0000066>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
-<http://www.w3.org/2004/02/skos/core#exactMatch>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://purl.org/dc/elements/1.1/contributor>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://model.geneontology.org/R-ALL-30389_cytosol>
-        a       <http://purl.obolibrary.org/obo/CHEBI_58165> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "Original Reactome ID: CHEBI_58165" , "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cAMP" ;
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
-        <http://purl.org/pav/providedBy>
-                "https://reactome.org" ;
-        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
-                "Reactome:R-ALL-30389" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://www.reactome.org/biopax/96/48887#SmallMolecule805> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-<http://purl.obolibrary.org/obo/CHEBI_33019>
-        a       <http://www.w3.org/2002/07/owl#Class> .
-
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:reactome_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
         <http://purl.org/dc/elements/1.1/source>
                 "Reactome:R-HSA-5610787" ;
         <http://purl.org/pav/providedBy>
                 "https://reactome.org" .
 
-<http://purl.obolibrary.org/obo/CHEBI_58165>
-        a       <http://www.w3.org/2002/07/owl#Class> .
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
 
-<https://w3id.org/biolink/vocab/in_taxon>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/GO_0004016> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "split from set-enabled reaction R-HSA-5610727" , "Original Reactome ID: R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-111294_cytosol> , <http://model.geneontology.org/R-ALL-30389_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_Q08462_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+<http://model.geneontology.org/UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://identifiers.org/uniprot/Q96PN6> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: UniProt_Q96PN6" , "located_in plasma membrane" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY10" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-379056" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein29475> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_R-HSA-5610727_R-HSA-5610578_Reactome_R-HSA-5610727> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_R-HSA-5610727_R-HSA-5610578_Reactome_R-HSA-5610787> ;
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:reactome_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2026-06-29" ;
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O43306_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+<http://identifiers.org/uniprot/Q08462>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/RO_0002233>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60503_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.org/dc/elements/1.1/title>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller_location_lociGO_0005886>
+        a       <http://purl.obolibrary.org/obo/GO_0005886> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://identifiers.org/uniprot/O43306>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q96PN6_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q96PN6_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://purl.obolibrary.org/obo/RO_0002333>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-113592_cytosol>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O95622_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O95622_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
   <http://purl.org/pav/providedBy>
           "https://reactome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/R-HSA-5610727> ;
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/R-HSA-5610727_R-HSA-5610578>
+          <http://model.geneontology.org/UniProt_O95622_R-HSA-5610727_controller>
 ] .
 
-<http://purl.obolibrary.org/obo/GO_0005886>
-        a       <http://www.w3.org/2002/07/owl#Class> .
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
 
-<http://model.geneontology.org/R-HSA-5610727_R-HSA-5610578>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/go/extensions/reacto.owl#REACTO_R-HSA-5610578> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "Active unit in R-HSA-5610577" , "Original Reactome ID: R-HSA-5610578" , "located_in plasma membrane" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "adenylate cyclases" ;
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
         <http://purl.org/pav/providedBy>
-                "https://reactome.org" ;
-        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
-                "Reactome:R-HSA-5610578" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://www.reactome.org/biopax/96/48887#Protein31594> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.Protein" .
+                "https://reactome.org" .
 
-<http://purl.org/dc/elements/1.1/title>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q08828_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
 
-<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610787>
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:reactome_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2026-06-29" ;
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_P51828_R-HSA-5610727_controller_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/GO_0004016> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: R-HSA-5610727" , "split from set-enabled reaction R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-111294_cytosol> , <http://model.geneontology.org/R-ALL-30389_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_P40145_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" , "Occurs In Rule. This relation was asserted based on the location of the enabling molecule. " ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller_location_lociGO_0005886>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-30389_cytosol>
+] .
+
+<http://model.geneontology.org/UniProt_O43306_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/uniprot/O43306> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Original Reactome ID: UniProt_O43306" , "located_in plasma membrane" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ADCY6" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-379058" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#Protein8318> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.Protein" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_P40145_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P40145_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_O60266_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> , <http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-ALL-111294_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-111294_cytosol_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://identifiers.org/uniprot/Q08828>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:reactome_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2026-07-02" ;
+  <http://purl.org/pav/providedBy>
+          "https://reactome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787>
+] .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002333_UniProt_Q8NFM4_R-HSA-5610727_controller_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q8NFM4_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/R-HSA-5610787>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "Imported from Reactome: https://reactome.org/content/detail/R-HSA-5610787" , "http://www.reactome.org" , "For logical inference, import the integrated tbox ontology http://purl.obolibrary.org/obo/go/extensions/go-lego-reacto.owl" ;
+        <http://geneontology.org/lego/modelstate>
+                "development" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "Hedgehog 'off' state - imported from: Reactome" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <https://w3id.org/biolink/vocab/in_taxon>
+                <http://purl.obolibrary.org/obo/NCBITaxon_9606> .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002234_R-ALL-30389_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_O95622_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller_BFO_0000066_reaction_R-HSA-5610727_enabled_by_UniProt_Q08462_R-HSA-5610727_controller_location_lociGO_0005886_Reactome_R-HSA-5610787>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610787" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_RO_0002233_R-ALL-113592_cytosol_Reactome_R-HSA-5610727_R-HSA-5610727_enabled_by_UniProt_P51828_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "Reactome:R-HSA-5610727" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" .
+
+<http://model.geneontology.org/R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0004016> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "split from set-enabled reaction R-HSA-5610727" , "Original Reactome ID: R-HSA-5610727" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "GPR161 promotes cAMP production in a G alpha(s)-dependent manner" ;
+        <http://purl.obolibrary.org/obo/BFO_0000050>
+                <http://model.geneontology.org/R-HSA-5610787/R-HSA-5610787> ;
+        <http://purl.obolibrary.org/obo/BFO_0000066>
+                <http://model.geneontology.org/reaction_R-HSA-5610727_enabled_by_UniProt_O60266_R-HSA-5610727_controller_location_lociGO_0005886> ;
+        <http://purl.obolibrary.org/obo/RO_0002233>
+                <http://model.geneontology.org/R-ALL-113592_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002234>
+                <http://model.geneontology.org/R-ALL-30389_cytosol> , <http://model.geneontology.org/R-ALL-111294_cytosol> ;
+        <http://purl.obolibrary.org/obo/RO_0002333>
+                <http://model.geneontology.org/UniProt_O60266_R-HSA-5610727_controller> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
+        <http://purl.org/pav/providedBy>
+                "https://reactome.org" ;
+        <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
+                "Reactome:R-HSA-5610727" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://www.reactome.org/biopax/97/48887#BiochemicalReaction13869> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+<http://model.geneontology.org/ev_w_id_R-HSA-5610727_BFO_0000050_R-HSA-5610787/R-HSA-5610787_Reactome_R-HSA-5610787_R-HSA-5610727_enabled_by_UniProt_Q08828_R-HSA-5610727_controller>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:reactome_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2026-07-02" ;
         <http://purl.org/dc/elements/1.1/source>
                 "Reactome:R-HSA-5610787" ;
         <http://purl.org/pav/providedBy>
